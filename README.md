@@ -8,7 +8,7 @@ A conceptual middleware architecture designed to bypass corrupted enterprise ERP
 
 ​2. System Architecture: The Intercept Bypass.
 
-![ERP Middleware Recovery Bridge Architecture](images/erp-middleware-recovery-bridge-architecture.png)
+![ERP Middleware Recovery Bridge Architecture](1783536748985.png)
 
 *The architecture relies on completely bypassing the failed monolithic core and intercepting the raw data into a quarantined zone for forensic reconciliation.*
 
