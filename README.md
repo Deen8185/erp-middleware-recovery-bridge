@@ -6,8 +6,12 @@ A conceptual middleware architecture designed to bypass corrupted enterprise ERP
 ​The Impact: Inability to reconcile bank data, zero fraud detection, and £144M+ in cascading damages.
 ​The Solution: An external middleware bridge that intercepts raw data, isolates it from the broken core, and runs forensic reconciliation in a quarantined environment.
 
-​2. System Architecture: The Intercept Bypas
-​Include a flowchart or mermaid.js diagram here showing the data flow.
+​2. System Architecture: The Intercept Bypass.
+
+![ERP Middleware Recovery Bridge Architecture](watermarked_img_8071001297269492735.png)
+
+*The architecture relies on completely bypassing the failed monolithic core and intercepting the raw data into a quarantined zone for forensic reconciliation.*
+
 ​Source Extraction: Securely polling raw CSV/API data directly from the bank, ignoring the ERP's broken ingest pipeline.
 ​The Quarantine Zone: A secure, isolated database strictly for staging raw transactions.
 ​The Reconciliation Engine: Autonomous matching logic (matching payments to invoices) built to flag anomalies.
